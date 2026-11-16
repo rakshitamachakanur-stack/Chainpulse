@@ -1,0 +1,39 @@
+{
+  "name": "chainpulse-admin",
+  "version": "2.0.0",
+  "private": true,
+  "dependencies": {
+    "@tanstack/react-query": "^5.17.9",
+    "axios": "^1.6.5",
+    "date-fns": "^3.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^6.21.3",
+    "recharts": "^2.10.3",
+    "framer-motion": "^11.0.3",
+    "react-countup": "^6.5.3",
+    "socket.io-client": "^4.7.4"
+  },
+  "scripts": {
+    "start": "cross-env PORT=3001 react-scripts start",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "cross-env": "^7.0.3",
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
+  }
+}
